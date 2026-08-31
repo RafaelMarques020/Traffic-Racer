@@ -79,7 +79,7 @@ class Partida:
 class Menu:
     def __init__(self, tela):
         self.tela = tela
-        self.titulo = Texto(tela, "CARRO DESVIA", 70, 150, (255, 220, 50), 55)
+        self.titulo = Texto(tela, "  Traffic Racer", 70, 150, (255, 220, 50), 55)
         self.subtitulo = Texto(tela, "Desvie dos obstáculos!", 90, 230, (255, 255, 255), 32)
         self.botao_jogar = Botao(tela, "JOGAR", 150, 340, 40, (40, 200, 80), (0, 0, 0))
         self.estado = "menu"

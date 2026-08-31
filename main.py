@@ -5,7 +5,7 @@ pygame.init()
 
 tamanhoTela = [400, 600]
 tela = pygame.display.set_mode(tamanhoTela)
-pygame.display.set_caption("Carro Desvia - Exercício 1")
+pygame.display.set_caption("Traffic Racer")
 relogio = pygame.time.Clock()
 corFundo = (15, 25, 40)
 
